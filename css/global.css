@@ -1,0 +1,180 @@
+/* css reset */
+body,h1,h2,h3,h4,h5,h6,p,dl,dt,dd,ul,ol,li,form,fieldset,legend,button,input,textarea,th,td {margin:0; padding:0}
+a {text-decoration:none}
+body {background: #F6F7F9;}
+.cb {clear: both;}
+.nomargin {margin: 0!important;}
+
+/* h2 title */
+h2.title {
+    font-family: Montserrat-Medium;
+    font-size: 40px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 38px;
+    text-align: center;
+}
+
+div.header {
+    width: 100%;
+    min-width: 1200px;
+    height: 980px;
+    background: url(../assets/image/banner.png) no-repeat center center;
+}
+div.header div.top {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    background: red;
+    position: relative;
+}
+div.header div.top div.left {
+
+}
+
+/* topThree */
+div.topThree {
+    width: 1200px;
+    margin: 0 auto;
+}
+div.topThree div.sec {
+    width: 390px;
+    height:420px;
+    float: left;
+    margin-right: 15px;
+    background: #fff;
+    position: relative;
+}
+div.topThree div.sec h1.icon {
+    text-align: center;
+    margin-top: 41px;
+}
+div.topThree div.sec h2.tit {
+    font-family: Montserrat-Regular;
+    font-size: 24px;
+    color: #111111;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 32px;
+}
+div.topThree div.sec p.txt {
+    padding: 0 25px;
+    /* background: red; */
+    margin-top: 20px;
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #666666;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 26px;
+}
+div.topThree div.sec div.line {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 6px;
+    background: #C4986C;
+}
+/* topThree end */
+
+/* bottomThree */
+div.bottomThree {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+div.bottomThree div.sec {
+    width: 390px;
+    height:260px;
+    float: left;
+    margin-right: 15px;
+    position: relative;
+}
+div.bottomThree div.sec h1.icon {
+    padding-left: 20px;
+}
+div.bottomThree div.sec h2.tit {
+    padding-left: 20px;
+    font-family: Montserrat-Regular;
+    font-size: 24px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 32px;
+}
+div.bottomThree div.sec p.txt {
+    opacity: 0.7;
+    font-family: Montserrat-Light;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 20px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+}
+/* bottomThree end */
+
+/* partner */
+div.partner {
+    width: 100%;
+    background: #fff;
+}
+/* partner end */
+
+/* blue */
+div.blue {
+    width: 100%;
+    height: 400px;
+    background: #1A4BBB;
+    position: relative;
+}
+div.blue div.wrap {
+    width: 100%;
+    position: absolute;
+    bottom: -80px;
+}
+div.blue p.text {
+    opacity: 0.8;
+    font-family: Montserrat-Light;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+}
+div.blue div.blueWhite {
+    /* position: absolute; */
+    /* bottom: -100px; */
+    width: 1200px;
+    height: 240px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0 4px 50px 0 rgba(43,19,176,0.10);
+    border-radius: 10px;
+}
+div.blue div.blueWhite div.sec {
+    width: 300px;
+    float: left;
+}
+div.blue div.blueWhite div.sec h1.icon {
+    text-align: center;
+    margin-top: 45px;
+}
+div.blue div.blueWhite div.sec div.line {
+    width: 30px;
+    height: 4px;
+    margin: 0 auto;
+    background: #DAA64F;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+div.blue div.blueWhite div.sec p.tit {
+    font-family: Montserrat-Regular;
+    font-size: 20px;
+    color: #1544AD;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 26px;
+    margin-top: 45px;
+}
