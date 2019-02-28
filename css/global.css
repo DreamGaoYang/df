@@ -1,5 +1,5 @@
 /* css reset */
-body,h1,h2,h3,h4,h5,h6,p,dl,dt,dd,ul,ol,li,form,fieldset,legend,button,input,textarea,th,td {margin:0; padding:0}
+body,h1,h2,h3,h4,h5,h6,p,dl,dt,dd,ul,ol,li,form,fieldset,legend,button,input,textarea,th,td {margin:0; padding:0; list-style: none;}
 a {text-decoration:none}
 body {background: #F6F7F9;}
 .cb {clear: both;}
@@ -15,6 +15,7 @@ h2.title {
     text-align: center;
 }
 
+/* header */
 div.header {
     width: 100%;
     min-width: 1200px;
@@ -29,8 +30,60 @@ div.header div.top {
     position: relative;
 }
 div.header div.top div.left {
-
+    position: absolute;
+    left: 0;
+    line-height: 100px;
 }
+div.header div.top ul {
+    margin-left: 300px;
+    padding-top: 16px;
+}
+div.header div.top ul li {
+    float: left;
+    width: 100px;
+    background: green;
+    margin-right: 5px;
+    text-align: center;
+    padding: 10px 0;
+}
+div.header h1.logo {
+    text-align: center;
+}
+div.header .h2 {
+    font-family: Montserrat-Medium;
+    font-size: 64px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 64px;
+}
+div.header .h5 {
+    font-family: Montserrat-Regular;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 26px;
+}
+div.header .h6 {
+    font-family: Montserrat-Light;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 36px;
+}
+div.header div.line {
+    background: #DAA64F;
+    border-radius: 12px;
+    width: 50px;
+    height: 5px;
+    margin: 0 auto;
+}
+div.header div.down {
+    text-align: center;
+}
+/* header end */
 
 /* topThree */
 div.topThree {
@@ -178,3 +231,11 @@ div.blue div.blueWhite div.sec p.tit {
     line-height: 26px;
     margin-top: 45px;
 }
+/* blue end */
+
+/* footer */
+div.footer p.mail {
+    text-align: center;
+}
+
+
