@@ -26,49 +26,49 @@
 
 <body>
     <div class="header">
-        <div class="top">
+        <div class="top" data-scroll-reveal="enter bottom and move 3px over .3s">
             <div class="left">
                 <img src="./assets/image/logo.png" alt="">
             </div>
             <ul>
                 <li>About us</li>
-                <li>DUSD</li>
-                <li>Benefits</li>
-                <li>Partners</li>
+                <li><a href="#DUSD">DUSD</a></li>
+                <li><a href="#Benefits">Benefits</a></li>
+                <li><a href="#partner">Partners</a></li>
                 <li>Contacts</li>
             </ul>
             <div class="right">
-                <a href="#">
-                    <img src="./assets/image/telegram.png" alt="">
+                <a href="https://mobile.twitter.com/dForcenet" target="_blank">
+                    <img src="./assets/image/twitter1.png" alt="">
                 </a>
-                <a href="#">
-                    <img src="./assets/image/telegram.png" alt="">
+                <a href="https://t.me/dforcenet" target="_blank">
+                    <img src="./assets/image/telegram1.png" alt="">
                 </a>
-                <a href="#">
-                    <img src="./assets/image/telegram.png" alt="">
+                <a href="https://www.reddit.com/user/dForceProtocol" target="_blank">
+                    <img src="./assets/image/reddit1.png" alt="">
                 </a>
-                <a class="nomargin" href="#">
-                    <img src="./assets/image/telegram.png" alt="">
+                <a class="nomargin" href="https://medium.com/@dforcenetwork"  target="_blank">
+                    <img src="./assets/image/medium1.png" alt="">
                 </a>
             </div>
         </div>
 
-        <h1 class="logo">
+        <h1 class="logo" data-scroll-reveal="enter bottom and move 3px over .4s">
             <img src="./assets/image/1.png" alt="">
         </h1>
-        <p class="h2">One Stablecoin For All </p>
-        <p class="h5">DUSD = $USD and Better</p>
-        <p class="h6">DUSD is the World’s first synthetic stablecoin for reliable, secure, fast money transfer, <br />
+        <p class="h2" data-scroll-reveal="enter bottom and move 3px over .45s">One Stablecoin For All </p>
+        <p class="h5" data-scroll-reveal="enter bottom and move 3px over .5s">DUSD = $USD and Better</p>
+        <p class="h6" data-scroll-reveal="enter bottom and move 3px over .55s">DUSD is the World’s first synthetic stablecoin for reliable, secure, fast money transfer, <br />
             diversification, storage and wealth allocation </p>
-        <div class="line"></div>
-        <div class="down">
+        <div class="line" data-scroll-reveal="enter bottom and move 3px over .6s"></div>
+        <div class="down" data-scroll-reveal="enter bottom and move 3px over .6s">
             <img src="./assets/image/Fill.png" alt="">
         </div>
     </div>
 
-    <h2 class="title pt50">What We Offers </h2>
+    <h2 class="title pt50" data-scroll-reveal="enter bottom and move 3px over .3s">What We Offers </h2>
 
-    <div class="topThree">
+    <div id="DUSD" class="topThree" data-scroll-reveal="enter bottom and move 3px over .3s">
         <div class="sec">
             <h1 class="icon">
                 <img src="./assets/image/icon1.png" alt="">
@@ -96,7 +96,7 @@
         <div class="cb"></div>
     </div>
 
-    <div class="bottomThree">
+    <div id="Benefits" class="bottomThree" data-scroll-reveal="enter bottom and move 3px over .3s">
         <div class="sec">
             <h1 class="icon">
                 <img src="./assets/image/icon11.png" alt="">
@@ -121,7 +121,7 @@
         <div class="cb"></div>
     </div>
 
-    <div class="partner">
+    <div id="partner" class="partner" data-scroll-reveal="enter bottom and move 3px over .3s">
         <h2 class="title pt40">Our Partners</h2>
         <div class="img">
             <img src="./assets/image/erduo.png" alt="">
@@ -131,10 +131,10 @@
         </div>
     </div>
 
-    <div class="blue">
+    <div class="blue" data-scroll-reveal="enter bottom and move 3px over .3s">
         <h2 class="title">Join the Community</h2>
         <p class="text">Learn more about Maker, chat with the team, and have your say in shaping the<br/> future of commerce on the blockchain.  </p>
-        <div class="wrap">
+        <div class="wrap" data-scroll-reveal="enter bottom and move 3px over .5s">
                 <div class="blueWhite">
                         <div class="sec">
                             <h1 class="icon">
@@ -170,27 +170,32 @@
     </div>
     <div style="height: 80px;"></div>
 
-    <div class="footer">
+    <div class="footer" data-scroll-reveal="enter bottom and move 3px over .3s">
         <div class="connect">
-            <a href="#">
+            <a href="https://mobile.twitter.com/dForcenet" target="_blank">
                 <img src="./assets/image/twitter.png" alt="">
             </a>
-            <a href="#">
-                <img src="./assets/image/twitter.png" alt="">
+            <a href="https://t.me/dforcenet" target="_blank">
+                <img src="./assets/image/telgram.png" alt="">
             </a>
-            <a href="#">
-                <img src="./assets/image/twitter.png" alt="">
+            <a href="https://www.reddit.com/user/dForceProtocol" target="_blank">
+                <img src="./assets/image/reddit.png" alt="">
             </a>
-            <a href="#">
-                <img src="./assets/image/twitter.png" alt="">
+            <a class="nomargin" href="https://medium.com/@dforcenetwork"  target="_blank">
+                <img src="./assets/image/medium.png" alt="">
             </a>
-            <a class="nomargin" href="#">
-                <img src="./assets/image/twitter.png" alt="">
-            </a>
+            <!-- <a class="nomargin" href="#">
+                <img src="./assets/image/github.png" alt="">
+            </a> -->
         </div>
         <p class="mail">foundation@dforce.org</p>
     </div>
     
+
+    <script src="js/scrollReveal.js"></script>
+    <script>
+        window.scrollReveal = new scrollReveal();
+    </script>
 </body>
 
 </html>
