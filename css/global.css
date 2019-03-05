@@ -90,9 +90,8 @@ div.header div.top ul li a {
     }
 
     div.header div.top div.right {
-        padding-top: 5px;
-        padding-left: 50px;
-        float: left;
+        padding-top: 20px;
+        float: right;
     }
 
     div.header div.top div.right a {
@@ -118,22 +117,29 @@ div.header div.top ul li a {
     }
 
     div.header div.top ul {
-        margin-left: 300px;
+        /* margin-left: 300px; */
+        float: right;
         padding-top: 16px;
     }
 
     div.header div.top ul li {
         float: left;
-        width: 100px;
+        width: 130px;
         margin-right: 5px;
         text-align: center;
         padding: 10px 0;
         /* font-family: Montserrat-Regular; */
         font-family: Montserrat-Light;
-        font-size: 18px;
         color: #FFFFFF;
         letter-spacing: 0;
         line-height: 20px;
+    }
+    div.header div.top ul li a {
+        font-size: 18px;
+        transition: 0.2s;
+    }
+    div.header div.top ul li a:hover {
+        font-size: 19px;
     }
 
     div.header h1.logo {
@@ -207,6 +213,17 @@ div.header div.top ul li a {
     div.topThree div.sec h1.icon {
         text-align: center;
         margin-top: 41px;
+    }
+    div.topThree div:hover.sec {
+        transition: 0.2s;
+        box-shadow: 0 4px 50px 0 rgba(43, 19, 176, 0.10);
+        transform: translate(-1px, -1px);
+    }
+    div.topThree div:hover.sec h1.icon img {
+        transition: 0.2s;
+    }
+    div.topThree div:hover.sec h1.icon img {
+        transform: scale(1.05, 1.05);
     }
 
     div.topThree div.sec h2.tit {
@@ -297,6 +314,10 @@ div.header div.top ul li a {
         margin-top: 50px;
         padding-bottom: 50px;
     }
+    div.partner div.img img {
+        width: 240px;
+        margin-right: 20px;
+    }
 
     /* partner end */
 
@@ -350,6 +371,12 @@ div.header div.top ul li a {
         text-align: center;
         margin-top: 45px;
     }
+    div.blue div.blueWhite div.sec h1.icon img {
+        transition: 0.2s;
+    }
+    div.blue div.blueWhite div.sec h1.icon img:hover {
+        transform: scale(1.05, 1.05);
+    }
 
     div.blue div.blueWhite div.sec div.line {
         width: 30px;
@@ -369,6 +396,10 @@ div.header div.top ul li a {
         text-align: center;
         line-height: 26px;
         margin-top: 45px;
+        transition: 0.2s;
+    }
+    div.blue div.blueWhite div.sec p:hover.tit {
+        font-size: 21px;
     }
 
     /* blue end */
@@ -443,8 +474,7 @@ div.header div.top ul li a {
         height: 34px;
     }
     div.header div.top div.right {
-        padding-top: 5px;
-        padding-left: 50px;
+        padding-top: 15px;
         position: absolute;
         right: 0;
     }
@@ -468,12 +498,13 @@ div.header div.top ul li a {
         opacity: 1;
     }
     div.header div.top ul {
-        margin-left: 230px;
-        padding-top: 16px;
+        margin-right: 230px;
+        float: right;
+        padding-top: 12px;
     }
     div.header div.top ul li {
         float: left;
-        width: 90px;
+        width: 110px;
         margin-right: 5px;
         text-align: center;
         padding: 10px 0;
@@ -483,6 +514,13 @@ div.header div.top ul li a {
         color: #FFFFFF;
         letter-spacing: 0;
         line-height: 20px;
+    }
+    div.header div.top ul li a {
+        font-size: 16px;
+        transition: 0.2s;
+    }
+    div.header div.top ul li a:hover {
+        font-size: 17px;
     }
     div.header h1.logo {
         text-align: center;
@@ -546,6 +584,17 @@ div.header div.top ul li a {
         margin-right: 15px;
         background: #fff;
         position: relative;
+    }
+    div.topThree div:hover.sec {
+        transition: 0.2s;
+        box-shadow: 0 4px 50px 0 rgba(43, 19, 176, 0.10);
+        transform: translate(-1px, -1px);
+    }
+    div.topThree div:hover.sec h1.icon img {
+        transition: 0.2s;
+    }
+    div.topThree div:hover.sec h1.icon img {
+        transform: scale(1.05, 1.05);
     }
     div.topThree div.sec h1.icon {
         text-align: center;
@@ -637,6 +686,10 @@ div.header div.top ul li a {
         margin-top: 40px;
         padding-bottom: 40px;
     }
+    div.partner div.img img {
+        width: 200px;
+        margin-right: 20px;
+    }
     /* partner end */
     /* blue */
     div.blue {
@@ -686,6 +739,12 @@ div.header div.top ul li a {
         text-align: center;
         margin-top: 20px;
     }
+    div.blue div.blueWhite div.sec h1.icon img {
+        transition: 0.2s;
+    }
+    div.blue div.blueWhite div.sec h1.icon img:hover {
+        transform: scale(1.05, 1.05);
+    }
 
     div.blue div.blueWhite div.sec div.line {
         width: 30px;
@@ -705,6 +764,10 @@ div.header div.top ul li a {
         text-align: center;
         line-height: 26px;
         margin-top: 10px;
+        transition: 0.2s;
+    }
+    div.blue div.blueWhite div.sec p:hover.tit {
+        font-size: 21px;   
     }
     /* blue end */
     /* footer */
