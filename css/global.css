@@ -32,6 +32,10 @@ a {
 
 body {
     background: #F6F7F9;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
 }
 
 .cb {
