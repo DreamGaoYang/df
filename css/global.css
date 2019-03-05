@@ -128,7 +128,7 @@ div.header div.top ul li a {
 
     div.header div.top ul li {
         float: left;
-        width: 130px;
+        /* width: 130px; */
         margin-right: 5px;
         text-align: center;
         padding: 10px 0;
@@ -139,11 +139,14 @@ div.header div.top ul li a {
         line-height: 20px;
     }
     div.header div.top ul li a {
+        margin-right: 20px;
         font-size: 18px;
         transition: 0.2s;
+        opacity: 0.8;
     }
     div.header div.top ul li a:hover {
-        font-size: 19px;
+        /* font-size: 19px; */
+        opacity: 1;
     }
 
     div.header h1.logo {
@@ -508,7 +511,7 @@ div.header div.top ul li a {
     }
     div.header div.top ul li {
         float: left;
-        width: 110px;
+        /* width: 110px; */
         margin-right: 5px;
         text-align: center;
         padding: 10px 0;
@@ -522,9 +525,12 @@ div.header div.top ul li a {
     div.header div.top ul li a {
         font-size: 16px;
         transition: 0.2s;
+        opacity: 0.8;
+        margin-right: 15px;
     }
     div.header div.top ul li a:hover {
-        font-size: 17px;
+        /* font-size: 17px; */
+        opacity: 1;
     }
     div.header h1.logo {
         text-align: center;
