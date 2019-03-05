@@ -227,10 +227,12 @@ div.header div.top ul li a {
         transform: translate(-1px, -1px);
     }
     div.topThree div:hover.sec h1.icon img {
-        transition: 0.2s;
+        /* transition: 0.2s; */
+        transition: All 0.3s ease-in-out;
     }
     div.topThree div:hover.sec h1.icon img {
-        transform: scale(1.05, 1.05);
+        /* transform: scale(1.05, 1.05); */
+        transform: rotate(360deg);
     }
 
     div.topThree div.sec h2.tit {
@@ -601,10 +603,12 @@ div.header div.top ul li a {
         transform: translate(-1px, -1px);
     }
     div.topThree div:hover.sec h1.icon img {
-        transition: 0.2s;
+        /* transition: 0.2s; */
+        transition: All 0.3s ease-in-out;
     }
     div.topThree div:hover.sec h1.icon img {
-        transform: scale(1.05, 1.05);
+        /* transform: scale(1.05, 1.05); */
+        transform: rotate(360deg);
     }
     div.topThree div.sec h1.icon {
         text-align: center;
