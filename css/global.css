@@ -227,13 +227,13 @@ div.header div.top ul li a {
         box-shadow: 0 4px 50px 0 rgba(43, 19, 176, 0.10);
         transform: translate(-1px, -1px);
     }
-    div.topThree div:hover.sec h1.icon img {
+    div.topThree div.sec h1.icon img {
         /* transition: 0.2s; */
-        transition: All 0.3s ease-in-out;
+        transition: All 0.5s ease-in-out;
     }
     div.topThree div:hover.sec h1.icon img {
         /* transform: scale(1.05, 1.05); */
-        transform: rotate(360deg);
+        transform: rotate(180deg);
     }
 
     div.topThree div.sec h2.tit {
@@ -610,13 +610,13 @@ div.header div.top ul li a {
         box-shadow: 0 4px 50px 0 rgba(43, 19, 176, 0.10);
         transform: translate(-1px, -1px);
     }
-    div.topThree div:hover.sec h1.icon img {
+    div.topThree div.sec h1.icon img {
         /* transition: 0.2s; */
-        transition: All 0.3s ease-in-out;
+        transition: All 0.5s ease-in-out;
     }
     div.topThree div:hover.sec h1.icon img {
         /* transform: scale(1.05, 1.05); */
-        transform: rotate(360deg);
+        transform: rotate(180deg);
     }
     div.topThree div.sec h1.icon {
         text-align: center;
