@@ -64,6 +64,7 @@ div.header div.top ul li a {
     /* h2 title */
     h2.title {
         /* font-family: Montserrat-Medium; */
+        min-width: 1000px;
         font-family: Montserrat-Light;
         font-size: 40px;
         color: #000000;
@@ -454,6 +455,7 @@ div.header div.top ul li a {
     h2.title {
         /* font-family: Montserrat-Medium; */
         font-family: Montserrat-Light;
+        min-width: 1000px;
         font-size: 32px;
         color: #000000;
         letter-spacing: 0;
@@ -585,9 +587,15 @@ div.header div.top ul li a {
     
     /* topThree */
     div.topThree {
-        width: 900px;
+        /* width: 900px; */
+        min-width: 1000px;
         margin: 0 auto;
         margin-top: 40px;
+    }
+    div.topThree div.center {
+        width: 900px;
+        margin: 0 auto;
+        overflow: auto;
     }
     div.topThree div.sec {
         width: 290px;
@@ -649,9 +657,14 @@ div.header div.top ul li a {
 
     /* bottomThree */
     div.bottomThree {
-        width: 900px;
+        min-width: 1000px;
         margin: 0 auto;
         margin-top: 90px;
+    }
+    div.bottomThree div.center {
+        width: 900px;
+        margin: 0 auto;
+        overflow: auto;
     }
 
     div.bottomThree div.sec {
@@ -690,8 +703,13 @@ div.header div.top ul li a {
     /* bottomThree end */
     /* partner */
     div.partner {
-        width: 100%;
+        min-width: 1000px;
         background: #fff;
+    }
+    div.partner div.center {
+        width: 900px;
+        margin: 0 auto;
+        overflow: auto;
     }
 
     div.partner div.img {
@@ -707,7 +725,7 @@ div.header div.top ul li a {
     /* partner end */
     /* blue */
     div.blue {
-        width: 100%;
+        min-width: 1000px;
         height: 270px;
         background: #1A4BBB;
         position: relative;
@@ -785,6 +803,9 @@ div.header div.top ul li a {
     }
     /* blue end */
     /* footer */
+    div.footer {
+        min-width: 1000px;
+    }
     div.footer div.connect {
         text-align: center;
         margin: 34px auto 0px;
