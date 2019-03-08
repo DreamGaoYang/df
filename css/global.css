@@ -405,6 +405,7 @@ div.header div.top ul li a {
     }
     div.blue div.blueWhite div.sec h1.icon img {
         transition: 0.2s;
+        width: 50px;
     }
     div.blue div.blueWhite div.sec h1.icon img:hover {
         transform: scale(1.05, 1.05);
@@ -423,7 +424,8 @@ div.header div.top ul li a {
         /* font-family: Montserrat-Regular; */
         font-family: Montserrat-Light;
         font-size: 20px;
-        color: #1544AD;
+        /* color: #1544AD; */
+        color: #888;
         letter-spacing: 0;
         text-align: center;
         line-height: 26px;
@@ -830,6 +832,7 @@ div.header div.top ul li a {
         margin-top: 20px;
     }
     div.blue div.blueWhite div.sec h1.icon img {
+        width: 50px;
         transition: 0.2s;
     }
     div.blue div.blueWhite div.sec h1.icon img:hover {
@@ -849,7 +852,8 @@ div.header div.top ul li a {
         /* font-family: Montserrat-Regular; */
         font-family: Montserrat-Light;
         font-size: 20px;
-        color: #1544AD;
+        /* color: #1544AD; */
+        color: #888;
         letter-spacing: 0;
         text-align: center;
         line-height: 26px;
