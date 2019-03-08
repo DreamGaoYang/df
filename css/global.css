@@ -154,14 +154,15 @@ div.header div.top ul li a {
         top: -21px;
         width: 90px;
         right: -24px;
-        color: red;
-        border: 1px solid red;
+        color: #fff;
+        border: 1px solid #fff;
         border-radius: 20px;
         padding: 0px 2px;
-        display: none;
+        transition: 0.3s;
+        opacity: 0;
     }
     div.header div.top ul li .children:hover::after {
-        display: inline;
+        opacity: 0.8;
     }
     div.header div.top ul li a:hover.hover {
         /* font-size: 19px; */
@@ -579,14 +580,15 @@ div.header div.top ul li a {
         top: -21px;
         width: 90px;
         right: -24px;
-        color: red;
-        border: 1px solid red;
+        color: #fff;
+        border: 1px solid #fff;
         border-radius: 20px;
         padding: 0px 2px;
-        display: none;
+        transition: 0.3s;
+        opacity: 0;
     }
     div.header div.top ul li .children:hover::after {
-        display: inline;
+        opacity: 0.8;
     }
     div.header div.top ul li a:hover.hover {
         /* font-size: 17px; */
