@@ -1,0 +1,311 @@
+/* css reset */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none
+}
+
+body {
+    background: #F6F7F9;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.cb {
+    clear: both;
+}
+
+.nomargin {
+    margin: 0 !important;
+}
+
+/* header */
+div.header {
+    padding-top: 15px;
+    width: 100%;
+    height: 400px;
+    background: url(../assets/image/banner.png) no-repeat center center;
+}
+div.header div.top {
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+div.header div.top div.left {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+div.header div.top div.left img {
+    width: 80px;
+}
+div.header div.top div.right {
+    padding-top: 5px;
+    padding-right: 10px;
+    float: right;
+}
+div.header div.top div.right a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    line-height: 50px;
+    margin-right: 5px;
+}
+div.header div.top div.right a img {
+    width: 30px;
+    height: 30px;
+    opacity: 0.9;
+}
+div.header div.top ul {
+    float: left;
+    margin-top: 40px;
+    padding-left: 10px;
+}
+div.header div.top ul li {
+    float: left;
+    margin-right: 5px;
+    text-align: center;
+    padding: 10px 0;
+    font-family: Montserrat-Light;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+div.header div.top ul li a {
+    margin-right: 20px;
+    font-size: 14px;
+    opacity: 0.9;
+    display: inline-block;
+    position: relative;
+}
+div.header div.top ul li a:link {
+    color: #FFFFFF;
+}    
+div.header h1.logo {
+    text-align: center;
+    margin-top: 10px;
+}
+div.header h1.logo img {
+    width: 50px;
+}
+div.header .h2 {
+    font-family: Montserrat-Light;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10px;
+}
+div.header .h5 {
+    font-family: Montserrat-Light;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 6px;
+}
+div.header .h6 {
+    font-family: Montserrat-Light;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+    margin-top: 10px;
+}
+div.header div.line {
+    background: #DAA64F;
+    border-radius: 12px;
+    width: 50px;
+    height: 3px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+div.header div.down {
+    text-align: center;
+    margin-top: 30px;
+}
+div.header div.down img {
+    width: 40px;
+}
+/* header end */
+
+h2.title {
+    font-family: Montserrat-Light;
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: center;
+    margin: 20px 0 15px 0;
+}
+
+/* topThree */
+div.topThree {
+    width: 100%;
+    background: #fff;
+    padding-top: 10px;
+}
+div.topThree div.sec {
+    width: 100%;
+    /* height: 420px; */
+    padding-bottom: 25px;
+    position: relative;
+}
+div.topThree div.sec h1.icon {
+    text-align: center;
+    height: 55px;
+}
+div.topThree div.sec h1.icon img {
+    width: 50px;
+}
+div.topThree div.sec h2.tit {
+    font-family: Montserrat-Light;
+    font-size: 16px;
+    color: #111111;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+}
+div.topThree div.sec p.txt {
+    padding: 0 25px;
+    margin-top: 10px;
+    font-family: Montserrat-Light;
+    font-size: 16px;
+    color: #666666;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
+}
+
+/* partner */
+div.partner {
+    width: 100%;
+    margin-top: -30px;
+}
+div.partner div.img {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background: #fff;
+}
+div.partner div.img > div{
+    margin: 0 auto !important;
+    width: 90%!important;
+    padding-top: 15px;
+}
+div.partner div.img img {
+    width: 150px;
+    margin-right: 10px;
+}
+/* blue */
+div.blue {
+    width: 100%;
+    height: 130px;
+    background: #1A4BBB;
+    position: relative;
+}
+div.blue h2.title {
+    color: #fff;
+    padding-top: 10px;
+}
+div.blue div.wrap {
+    width: 100%;
+    position: absolute;
+    bottom: -60px;
+    /* background: red; */
+}
+div.blue div.blueWhite {
+    width: 90%;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0 4px 50px 0 rgba(43, 19, 176, 0.10);
+    border-radius: 3px;
+}
+div.blue div.blueWhite div.sec {
+    width: 25%;
+    float: left;
+}
+div.blue div.blueWhite div.sec h1.icon {
+    text-align: center;
+    margin-top: 15px;
+}
+div.blue div.blueWhite div.sec h1.icon img {
+    width: 40px;
+}
+div.blue div.blueWhite div.sec div.line {
+    width: 30px;
+    height: 2px;
+    margin: 0 auto;
+    background: #DAA64F;
+    border-radius: 12px;
+    margin-top: 5px;
+}
+div.blue div.blueWhite div.sec p.tit {
+    font-family: Montserrat-Light;
+    font-size: 14px;
+    /* color: #1544AD; */
+    color: #888;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 5px;
+    position: relative;
+}
+
+/* footer */
+div.footer div.connect {
+    text-align: center;
+    margin: 0px auto 0px;
+}
+div.footer div.connect a {
+    /* border: 1px solid #DAA64F; */
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 64px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+div.footer div.connect a img {
+    width: 30px;
+    height: 30px;
+    opacity: 0.9;
+}
+div.footer p.mail {
+    margin: 10px 0 20px;
+    text-align: center;
+}
+
+
+
