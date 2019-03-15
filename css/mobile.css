@@ -214,11 +214,12 @@ div.topThree div.sec p.txt {
 }
 div.topThree div.sec div.line {
     position: absolute;
-    left: 3%;
+    left: 10%;
     bottom: 0;
-    width: 94%;
+    width: 80%;
     height: 1px;
     background: #C4986C;
+    opacity: 0.5;
 }
 
 /* partner */
